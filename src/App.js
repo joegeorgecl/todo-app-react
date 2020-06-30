@@ -1,26 +1,39 @@
-import React from 'react';
+import React, { Component } from "react";
+//import TodoApp from "./component/TodoApp/TodoApp";
+import Counter from"./component/counter";
 
+// function App() {
+//   return (
+//     <div className="App">
+//       <h1>Welcome</h1>
+//     </div>
+//   );
+// }
 
+class App extends Component {
+  // state={
+  //   myString :"hello",
+  //   myString1 :"hello"
+  // };
+  // //changing states
+  // handleChange=()=>{
+  //   this.setState(
+  //     {
+  //       myString1:"media"
+  //     }
+  //   );
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  // }
+  render() {
+    return (
+      <div className="App">
+        {/* <h1>{this.state.myString}</h1> */}
+        {/* <button onClick={this.handleChange}>Change Text</button>
+        <TodoApp  myString1={this.state.myString1}/> */}
+        <h1>Events</h1>
+        <Counter/>
+      </div>
+    );
+  }
 }
-
 export default App;
