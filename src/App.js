@@ -1,7 +1,8 @@
 import React, { Component } from "react";
+import List from "./component/List";
 //import TodoApp from "./component/TodoApp/TodoApp";
 //import Counter from"./component/counter";
-import Forms from "./component/forms";
+//import Forms from "./component/forms";
 
 // function App() {
 //   return (
@@ -31,9 +32,10 @@ class App extends Component {
         {/* <h1>{this.state.myString}</h1> */}
         {/* <button onClick={this.handleChange}>Change Text</button>
         <TodoApp  myString1={this.state.myString1}/> */}
-        <h1>Events</h1>
+        {/* <h1>Events</h1> */}
         {/* <Counter /> */}
-        <Forms />
+        {/* <Forms /> */}
+        <List/>
       </div>
     );
   }
